@@ -1,12 +1,12 @@
 Creates and returns a interactable sunburst plot and image display for tree structured data and brain images.
 
 Parameters:
+
     - data_by_region: DataFrame which contains linking sunburst nodes to Z-slices. 
         This should contain atlas ontology information. Essential columns are 'id','parent_id','acronym','parent_acronym'. 
         The dataframe should be able to construct one hiearchical tree. 
         The dataframe can have data variables. This can be cell density, results of statistical analysis etc...
         The data variables can be specified by data_variable later.
-        
     - data_by_img: 3D numpy array with float values. This can be effect size, normalized density etc.
     - annotated_atlas_img: 3D numpy array of the atlas with annotations.
     - outputpath: Directory to save exported figures.
