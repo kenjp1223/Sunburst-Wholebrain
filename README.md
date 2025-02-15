@@ -23,4 +23,4 @@ Parameters:
 You can run the funcion like below
 
     import active_sunburst as sunburst    
-    sunburst.run_app(data_by_region, data_by_img, annotated_atlas_img, outputpath, data_variable = 'Control',sunburst_range_color = [0,2],colormap =  plt.cm.viridis)
+    sunburst.run_app(data_by_region, data_by_img, annotated_atlas_img, outputpath, data_variable = 'normalized_density',sunburst_range_color = [0,2],colormap =  plt.cm.viridis)
