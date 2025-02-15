@@ -24,3 +24,6 @@ You can run the funcion like below
 
     import active_sunburst as sunburst    
     sunburst.run_app(data_by_region, data_by_img, annotated_atlas_img, outputpath, data_variable = 'normalized_density',sunburst_range_color = [0,2],colormap =  plt.cm.viridis)
+
+It will generate something like this
+![me](https://github.com/kenjp1223/Sunburst-Wholebrain/blob/main/demo-interactive-plotting.gif)
